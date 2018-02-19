@@ -1,0 +1,33 @@
+{
+  "name": "vandelin586-winappinternals",
+  "version": "0.1.0",
+  "author": "vandelin586",
+  "summary": "Module used to install Appinternals on Windows OS",
+  "license": "Apache-2.0",
+  "source": "https://github.com/vandelin586/winappinternals",
+  "project_page": "https://github.com/vandelin586/winappinternals/blob/master/README.md",
+  "issues_url": "https://github.com/vandelin586/winappinternals/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ]
+}
